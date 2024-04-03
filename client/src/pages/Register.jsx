@@ -43,7 +43,7 @@ const registerUser = async(e) =>{
             {error && <p className="form__error-message">{error}</p>}
             <input type="text" placeholder='Full Name' name='name' value={userData.name} 
             onChange={changeInputHandler}/>
-            <input type="text" placeholder='Email' name='email' value={userData.email} onChange=
+            <input type="gmail" placeholder='Email' name='email' value={userData.email} onChange=
             {changeInputHandler}/>
             <input type="password" placeholder='Password' name='password'value={userData.password}
             onChange={changeInputHandler}/>
